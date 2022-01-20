@@ -4,9 +4,8 @@ Prettier is an opinionated formatter and style enforcer for javascript & web cod
 If you want to have pedantic arguments over the pros and cons of things like "double" vs 'single' quotes or if we should have semicolons or not, you begin that discussion with a PR to this repo. The few overrides of the prettier defaults we have here are mostly a matter of unifying what have previously been de facto configurations across our repos.
 
 ## Install
-This package gets installed with the parent workspace:
 ```bash
-npm install -D prettier git@github.com:tozny/shared-lints.git
+npm install -D prettier @tozny-secure/prettier-config
 ```
 
 ## Use

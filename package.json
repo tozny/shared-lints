@@ -1,6 +1,8 @@
 {
-  "name": "@toznysecure/shared-lints",
+  "name": "@toznysecure/lints",
+  "private": true,
   "workspaces": [
-    "eslint-config"
+    "eslint-config",
+    "prettier-config"
   ]
 }

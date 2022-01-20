@@ -3,9 +3,8 @@
 Eslint is a linting engine for javascript that enforces good coding practices and prevents potential bugs. These are the rules tozny uses across our javascript repositories.
 
 ## Install
-This package gets installed with the parent workspace:
 ```bash
-npm install -D eslint git@github.com:tozny/shared-lints.git
+npm install -D eslint @toznysecure/eslint-config
 ```
 
 ## Use
@@ -18,7 +17,7 @@ After that, you're all set up! Add a lint script to your package.json and make s
 ### Javascript Library
 ```json
 {
-    "extends": "@toznysecure"
+  "extends": "@toznysecure"
 }
 ```
 

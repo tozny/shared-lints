@@ -1,25 +1,16 @@
 # Tozny's shared lint configurations!
 
-The purpose of this repo is to provide a single place in which we can store and share our linting and
-editor configuration rule sets.
+The purpose of this repo is to provide a single place in which we can store and share our linting & editor configuration rule sets.
 
-It is a monorepo that contains multiple different packages for your linting pleasure.
+It is a monorepo that contains multiple different packages for your linting pleasure. It makes use of [`npm`'s "workspaces"](https://docs.npmjs.com/cli/v8/using-npm/workspaces) to manage multiple different npm packages in a single place. Note that "workspace" is an overloaded term that refers to both the monorepo and the individual packages within it.
 
-## Install
-Through some npm magic, all the packages can be install in one fell swoop!
-```sh
-npm install --save-dev git@github.com:tozny/shared-lints.git
-```
-
-The package lock will preserve the commit hash that was used at the time of install, but you can also explicitly set the git commit hash, branch, or tag with a `#<commit-ref>` at the end of the package name.
-
-This will install all the containing npm packages listed in the [package.json](./package.json).
-
-## Updating
-Creating a new version is as simple as pushing code to `main` on this repo. Then from the consuming project repo simple rerun the install command to pick up the latest changes.
+## Javascript linting & formatting
+This monorepo contains two packages for giving your javascript project automated linting & formatting powers. See the two readmes for more details:
+* [@toznysecure/eslint-config](./eslint-config#readme)
+* [@toznysecure/prettier-config](./prettier-config#readme)
 
 ---
 
 TODO docs
-VSCode settings & recommended extensions
-prettier
+* publishing
+* VSCode settings & recommended extensions
