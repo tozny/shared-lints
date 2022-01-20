@@ -21,7 +21,5 @@ First, make sure you have an npm account with the necessary permissions to publi
 
 To use your new version in a project simply run `npm i <package-name>@latest`.
 
----
-
-TODO docs
-* VSCode settings & recommended extensions
+# VSCode Settings
+This repo also contains info about preferred editor settings & some recommended extensions if you use VSCode. Find details about that [here](./.vscode#readme).

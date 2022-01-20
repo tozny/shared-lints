@@ -1,0 +1,47 @@
+{
+  "recommendations": [
+    //////////
+    // Language/Framework support
+    //////////
+    // JS/TS
+    "ms-vscode.vscode-typescript-next",
+    // Golang
+    "golang.go",
+    // Python
+    "ms-python.python",
+    // Terraform
+    "hashicorp.terraform",
+    // Swagger/OpenAPI
+    "arjun.swagger-viewer",
+    // SQL formatting
+    "adpyke.vscode-sql-formatter",
+    // K8s
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+
+    //////////
+    // Essential JS/Vue linting/formatting business
+    //////////
+    // Eslint in your editor! Squiggly lines teach you to code better.
+    "dbaeumer.vscode-eslint",
+    // Prettier formatter (great for format-on-save)
+    "esbenp.prettier-vscode",
+    // Vue tooling
+    "octref.vetur",
+
+
+    //////////
+    // Random fun formatting/highlighting
+    //////////
+    // Screenshare/Remote collaboration!
+    "ms-vsliveshare.vsliveshare",
+
+    // rainbow brackets highlights each level of nested brackets a different color which makes it
+    // easy to know where you are in nested brackets/parens/braces
+    "2gua.rainbow-brackets",
+
+    // better comments colors the text of comments that are prefixed with special characters
+    // ! like this!
+    // ? or this?
+    "aaron-bond.better-comments"
+  ]
+}
