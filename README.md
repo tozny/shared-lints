@@ -9,8 +9,19 @@ This monorepo contains two packages for giving your javascript project automated
 * [@toznysecure/eslint-config](./eslint-config#readme)
 * [@toznysecure/prettier-config](./prettier-config#readme)
 
+## Publishing
+Each of the npm packages in this repo must be published separately when a change is made. This is the procedure:
+
+First, make sure you have an npm account with the necessary permissions to publish to the `@toznysecure` scope.
+
+1. Login to npm: `npm login`. Follow the prompts.
+2. Go to the directory of the package.
+3. Change the `version` inside of the `package.json`. Note that `npm version` won't play nicely because it will attempt to tag the git commit, but the repo contains multiple packages. So just go change it by hand.
+4. Run `npm publish`. Check the notices & do the thing.
+
+To use your new version in a project simply run `npm i <package-name>@latest`.
+
 ---
 
 TODO docs
-* publishing
 * VSCode settings & recommended extensions
