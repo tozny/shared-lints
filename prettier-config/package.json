@@ -1,0 +1,26 @@
+{
+  "name": "@toznysecure/prettier-config",
+  "version": "1.0.0",
+  "description": "Tozny's prettier config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tozny/shared-lints.git"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "author": "Tozny, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tozny/shared-lints/issues"
+  },
+  "homepage": "https://github.com/tozny/shared-lints#readme",
+  "optionalPeerDependencies": {
+    "prettier": "> 2"
+  },
+  "prettier": "./index"
+}
