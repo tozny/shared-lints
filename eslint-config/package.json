@@ -1,0 +1,39 @@
+{
+  "name": "@toznysecure/eslint-config",
+  "version": "1.0.0",
+  "description": "A shared eslint config for Tozny.",
+  "main": "base.js",
+  "scripts": {
+    "lint": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tozny/shared-lints.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Tozny, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tozny/shared-lints/issues"
+  },
+  "homepage": "https://github.com/tozny/shared-lints/eslint-config#readme",
+  "peerDependencies": {
+    "@typescript-eslint/parser": ">= 5",
+    "eslint": ">= 6"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0"
+  },
+  "optionalPeerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">= 5",
+    "@vue/cli-plugin-eslint": ">= 4",
+    "eslint-plugin-vue": ">= 6",
+    "typescript": ">= 4"
+  }
+}
