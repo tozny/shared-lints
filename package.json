@@ -1,0 +1,6 @@
+{
+  "name": "@toznysecure/shared-lints",
+  "workspaces": [
+    "eslint-config"
+  ]
+}

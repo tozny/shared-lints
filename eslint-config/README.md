@@ -3,8 +3,9 @@
 Eslint is a linting engine for javascript that enforces good coding practices and prevents potential bugs. These are the rules tozny uses across our javascript repositories.
 
 ## Install
+This package gets installed with the parent workspace:
 ```bash
-npm install -D eslint @toznysecure/eslint-config
+npm install -D eslint git@github.com:tozny/shared-lints.git
 ```
 
 ## Use
@@ -26,7 +27,7 @@ Additional required dependencies: `npm i -D typescript typescript @typescript-es
 
 ```json
 {
-  "extends": "@toznysecure/eslint-config/typescript
+  "extends": "@toznysecure/eslint-config/typescript"
 }
 ```
 
