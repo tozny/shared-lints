@@ -13,10 +13,21 @@
     "hashicorp.terraform",
     // Swagger/OpenAPI
     "arjun.swagger-viewer",
+    // Shell scripts
+    "timonwong.shellcheck",
     // SQL formatting
     "adpyke.vscode-sql-formatter",
+    // YAML
+    "redhat.vscode-yaml",
+
+    //////////
+    // Misc tooling
+    //////////
     // K8s
     "ms-kubernetes-tools.vscode-kubernetes-tools",
+    // Git lens - better git powers
+    "eamodio.gitlens",
+
 
     //////////
     // Essential JS/Vue linting/formatting business
@@ -42,6 +53,9 @@
     // better comments colors the text of comments that are prefixed with special characters
     // ! like this!
     // ? or this?
-    "aaron-bond.better-comments"
+    "aaron-bond.better-comments",
+
+    // spell checking
+    "streetsidesoftware.code-spell-checker"
   ]
 }
