@@ -9,6 +9,9 @@ The fact that this readme is in a file named `.vscode` is a hack. Clone this rep
 
 They all have comments in the [extensions file](extensions.json), so check that to know if you actually want a thing.
 
+Install extensions by going to Extensions > Filters > Recommended.
+Get a new extension id to add by clicking the Gear and then "Copy Extension Id". Don't use "Add to Workspace Recommendations" in this repo because it will erase all the comments.
+
 ## Recommended VSCode Settings
 Settings in this section are as JSON set in VSCode's `settings.json`.
 
@@ -33,6 +36,8 @@ There are many great settings in modern editors. These are just a few that affec
   "prettier.requireConfig": true
 }
 ```
+
+A UI is also available for all the settings above. Just go to Settings (Cmd + ,) and search for key words.
 
 ## A note about formatting from the editor
 Some useful commands you should know exist in the Command Palette (Cmd+Shift+P):
