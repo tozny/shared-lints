@@ -53,9 +53,13 @@
     // better comments colors the text of comments that are prefixed with special characters
     // ! like this!
     // ? or this?
+    // TODO: How about this!?
     "aaron-bond.better-comments",
 
     // spell checking
-    "streetsidesoftware.code-spell-checker"
+    "streetsidesoftware.code-spell-checker",
+
+    // Pets!
+    "tonybaloney.vscode-pets"
   ]
 }
